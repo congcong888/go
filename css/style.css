@@ -1,0 +1,88 @@
+header{
+    width: 100%;
+    background: #f8f8f8;
+    line-height: 40px;
+    border-bottom:1px solid #eee;
+}
+.container{
+    background: #f8f8f8;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-top:after{
+    content: ' ';
+    display: table;
+    clear: both;
+}
+.header-top a{
+    color: #787785;
+}
+.header-top-menu ul li{
+    float: left;
+    padding: 0 20px;
+}
+.header-top-menu ul:after{
+    content: ' ';
+    display: table;
+    clear: both;
+}
+.header-top-menu ul li .login{
+    color: #f00;
+}
+.header-top-menu ul li .register{
+    color: #787785;
+}
+.search-container .search-logo{
+    width: 320px;
+    height: 100px;
+    background: url(../resource/image/header/logo.png) center;
+    background-size: 320px;
+}
+.search-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.search-input:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.search-input{
+    margin-top:25px;
+}
+.search-input input{
+    width: 400px;
+    height: 40px;
+    border:2px solid #FB3434;
+    border-radius: 5px;
+    border-right:none;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.search-input .btn-search{
+    width:60px;
+    height: 44px;
+    border:none;
+    background: #FB3434 url("../resource/image/header/search.png") no-repeat center;
+    background-size: 22px 22px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+input:focus,button:focus{
+    outline:none;
+}
+.search-download{
+    width: 320px;
+    height: 100px;
+    background: url("../resource/image/header/download.png") no-repeat center;
+    background-size: 320px;
+}
+
+/* 登录框的样式 */
+.loginContainer{
+    width: 300px;
+    border:1px solid #aaaaaa;
+    position: relative;
+    left: 40%;
+    top:60%;
+}

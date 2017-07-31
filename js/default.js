@@ -9,3 +9,9 @@ var DEBUG_HOST = "http://192.168.200.33:8080/shop/";
 
 //登录
 var LOGIN = "api_user.php";
+
+var PRODUCT_TYPE = "api_cat.php";
+
+var PRODUCT_GOODS = "api_goods.php";
+
+var PRODUCT_CART = "api_cart.php";

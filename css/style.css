@@ -38,6 +38,11 @@ header{
     background: url(../resource/image/header/logo.png) center;
     background-size: 320px;
 }
+.search-logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
 .search-container{
     width: 1200px;
     margin: 0 auto;
@@ -86,3 +91,48 @@ input:focus,button:focus{
     left: 40%;
     top:60%;
 }
+
+nav{
+    height: 50px;
+    background: #fb3434;
+}
+.main-nav-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.main-nav-container:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.main-nav-container li{
+    float: left;
+    padding: 5px 10px;
+}
+.goods-container:after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.goods-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.good-list{
+    float: left;
+    width: 380px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 2px solid #FB3434;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.good-list img{
+    width: 336px;
+}
+.good-list .goods-name{
+    background: #fb3434;
+    color: #ffffff;
+}
+
